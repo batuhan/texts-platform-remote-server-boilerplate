@@ -26,6 +26,10 @@ PORT=
 npm install
 npm build
 ```
+- Start the server
+```bash
+npm start
+```
 
 ## Customizing Integration
 
