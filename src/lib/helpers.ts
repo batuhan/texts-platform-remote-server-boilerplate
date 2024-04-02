@@ -89,7 +89,7 @@ export function mapDbUserToTextsUser(obj: UserDBSelect) {
   return user;
 }
 
-export const extraMap = new Map<string, any>();
+export const extraMap = new Map<UserID, any>();
 
 export function getExtra(userID: UserID) {
   const extra = extraMap.get(userID);
